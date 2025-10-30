@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-jenkins-demo
+  description: "Demo project for Jenkins + Backstage integration"
+  annotations:
+    jenkins.io/job-full-name: "backstage-jenkins-demo"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: admin
