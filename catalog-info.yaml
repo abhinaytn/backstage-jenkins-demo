@@ -4,7 +4,7 @@ metadata:
   name: backstage-jenkins-demo
   description: "Demo project for Jenkins + Backstage integration"
   annotations:
-    jenkins.io/job-full-name: "backstage-jenkins-demo"
+    jenkins.io/job-full-name: backstage-jenkins-demo
 spec:
   type: service
   lifecycle: experimental
